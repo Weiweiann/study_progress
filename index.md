@@ -1,0 +1,45 @@
+---
+title       : Progress Report 1219
+subtitle    : Survival prediction in lung adenocarcinoma with lncRNA expression profile
+author      : Weian
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+<!-- Limit image width and height -->
+<style type='text/css'>
+img {
+    max-height: 560px;
+    max-width: 964px;
+}
+</style>
+
+<!-- Center image on slide -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script type='text/javascript'>
+$(function() {
+    $("p:has(img)").addClass('centered');
+});
+</script>
+
+
+## Flow Chart
+
+![alt txt](assets/img/lncRNA_flowchart.png)
+
+
+
+---
+## Validation
+
+
+![alt txt](assets/img/Internal_validation.png)
+![alt txt](assets/img/External_validation.png)
+
+
+
+
